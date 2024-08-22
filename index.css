@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;
+    display: none;
+}
+
+input{
+    padding: 5px;
+    margin: 20px;
+}
+
+
+.result-box{
+    margin: 20px;
+}
