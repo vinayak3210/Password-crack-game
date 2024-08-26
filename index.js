@@ -15,6 +15,7 @@ function result(){
     let firstInput= document.getElementById('firstNumber').value;
     let secondInput= document.getElementById('secondNumber').value;
 
+
 console.log(firstInput);
 console.log(secondInput);
 
@@ -22,7 +23,12 @@ console.log(secondInput);
 if(firstNumber==firstInput && secondNumber==secondInput){
     let result =document.querySelector('.result');
     result.style.backgroundColor='green';
+    result.style.color='white';
+    // result.style.padding='10px'; 
+    // result.style.border-radius='5px';
+    
     result.innerHTML='Password Crack';
+
 }
     
     else if(firstNumber==firstInput || secondNumber==secondInput){
@@ -40,5 +46,8 @@ if(firstNumber==firstInput && secondNumber==secondInput){
 
     let start = document.querySelector('.start');
     start.addEventListener('click',function(){
-        document.querySelector('.main').style.display = 'flex'
+        document.querySelector('.main').style.display = 'flex';
+        start.style.display='none';
     })
+    
+    
